@@ -19,6 +19,7 @@ while x > 0 :
         print("try again")
         continue
 
+print("#" * 20)
 
 for c , address in enumerate(my_list) :
 
