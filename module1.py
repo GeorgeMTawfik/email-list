@@ -27,4 +27,4 @@ for c , address in enumerate(my_list) :
     print(f"email number {c + 1} is {address}")
 
 print("#" * 20)
-print("5 valid emails stored successfully")
+print("five valid emails have been entered")
