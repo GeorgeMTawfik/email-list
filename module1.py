@@ -7,7 +7,7 @@ x = 5
 while x > 0 :
 
     email = input("enter your email ")
-    valid = re.findall("[A-z0-9]+/.?|-?|_?@[A-z0-9]+.com", email)
+    valid = re.findall(r"[A-Za-z0-9]+[._-]?[A-Za-z0-9]*@[A-Za-z0-9]+\.com" , email)
 
     if valid :
 
@@ -19,6 +19,7 @@ while x > 0 :
         print("try again")
         continue
 
+print("#" * 20)
 
 for c , address in enumerate(my_list) :
 
