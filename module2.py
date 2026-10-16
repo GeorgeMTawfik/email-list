@@ -1,3 +1,5 @@
+''' printing 5 valin emails user entering '''
+
 import re
 
 my_list = []
