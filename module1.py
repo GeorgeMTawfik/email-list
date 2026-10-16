@@ -19,8 +19,12 @@ while x > 0 :
         print("try again")
         continue
 
+print("the emails are")
 print("#" * 20)
 
 for c , address in enumerate(my_list) :
 
     print(f"email number {c + 1} is {address}")
+
+print("#" * 20)
+print("5 valid emails stored successfully")
