@@ -1,6 +1,6 @@
 import re
 
-my_list = []
+my_list = [] # only 4 emails
 
 x = 4
 
