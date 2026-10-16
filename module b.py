@@ -1,6 +1,6 @@
 import re
 
-my_list = [] # only 4 emails
+my_list = [] # only 4 emailsgit che
 
 x = 4
 
@@ -24,3 +24,5 @@ print("#" * 20)
 for c , address in enumerate(my_list) :
 
     print(f"email number {c + 1} is {address}")
+
+print("#" * 20)
