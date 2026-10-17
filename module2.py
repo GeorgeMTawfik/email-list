@@ -8,11 +8,11 @@ x = 5
 
 while x > 0 :
 
-    email = input("enter your username ")
+    user = input("enter your username ")
     
 
     
-    my_list.append(email)
+    my_list.append(user)
     x -= 1
 
 print("the usernames are")
